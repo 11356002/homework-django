@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="utf-8">
+    <title>我的練習頁</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <img src="{% static 'image/28011.jpg' %}" alt="照片" class="card-img-top">
+    <form>
+        <label>帳號:<label>
+        <input type="text" name="username" value="leon"><br>
+        <label>密碼:<label>
+        <input type="password" name="password"<br>
+        <button type="submit">test button</button>
+    </form>
+</body>
+</html>
